@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "7"
+script:
+  - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy travisci-13384 1//03ua-6PHcq8xUCgYIARAAGAMSNwF-L9IrdpFY1NnCd3CSHJ9S0rE-f-5jqxIW53xeABOzLPMm3QoJDNFsQz-nplW_duxZG6Z0
